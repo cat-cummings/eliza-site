@@ -4,7 +4,7 @@ import Header from './Header'
 import Home from './Home'
 import About from './About'
 import Gallery from './Gallery'
-import Swims from './Swims'
+import SwimContainer from './SwimContainer'
 
 const App = () => {
 
@@ -14,7 +14,7 @@ const App = () => {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
-        <Route path='/swims' element={<Swims />} />
+        <Route path='/swims' element={<SwimContainer />} />
         <Route path='/gallery' element={<Gallery />} />
       </Routes>
     </>
